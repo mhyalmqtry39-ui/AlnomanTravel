@@ -1,0 +1,6 @@
+{
+  "name": "النعمان للسفريات والسياحة | Al-Noaman Travel",
+  "description": "الموقع الرسمي لشركة النعمان للسفريات والسياحة - نقل بري داخلي متميز بين صنعاء وعدن وجميع المحافظات اليمنية بأسطول حديث ومواعيد دقيقة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

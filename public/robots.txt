@@ -1,0 +1,9 @@
+# robots.txt for Al-Noaman Travel & Tourism (شركة النعمان للسفريات والسياحة)
+# Website: https://alnoaman-travel.com/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://alnoaman-travel.com/sitemap.xml

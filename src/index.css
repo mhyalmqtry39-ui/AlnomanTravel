@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cairo: 'Cairo', system-ui, -apple-system, sans-serif;
+    --font-tajawal: 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-cairo);
+  }
+
+  body {
+    background-color: #061122;
+    color: #f1f5f9;
+  }
+}
+
+.font-cairo {
+  font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom glow and luxury glass highlights */
+.glass-panel {
+  background: rgba(11, 37, 69, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(15, 30, 54, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(147, 197, 253, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #061122;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
